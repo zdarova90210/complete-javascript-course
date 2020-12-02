@@ -1,7 +1,7 @@
 ////////////////////////////////////
 // Values and Variables
 let country = 'Russia';
-let continent = 'Eurasia';
+const continent = 'Eurasia';
 let population = 144.5;
 //
 // console.log(`Country: ${country}`);
@@ -10,10 +10,14 @@ let population = 144.5;
 
 ////////////////////////////////////
 //  Data Types
-let isIsland = false;
+const isIsland = false;
 let language;
 
 console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+
+////////////////////////////////////
+// let, const and var
+language = 'Russian';
