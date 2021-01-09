@@ -128,3 +128,21 @@
 //     century = 21;
 // }
 // console.log(century);
+
+
+////////////////////////////////////
+// Coding Challenge #2
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 78;
+const heightJohn = 1.69;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+if (BMIMark > BMIJohn) {
+    console.log(`Mark's BMI (${BMIMark}) is higher than Jhon's (${BMIJohn})!`);
+} else if (BMIMark < BMIJohn) {
+    console.log(`Mark's BMI (${BMIMark}) is lower than Jhon's (${BMIJohn})!`);
+} else {
+    console.log(`Mark's BMI (${BMIMark}) is equal Jhon's (${BMIJohn})!`);
+}
